@@ -56,6 +56,12 @@ b = d
 print("a: " + a)
 print("b: " + b)
 
+# Variable naming 
+# El código deber ser legible y tener sentido 
+# No puedes tener espacios al crear los nombres de las variables
+# No puedes colocar números al inicio de la variable
+# No usar los nombres restringidos
+
 
 
 

@@ -62,7 +62,11 @@ print("b: " + b)
 # No puedes colocar números al inicio de la variable
 # No usar los nombres restringidos
 
+question_one = input("¿Cómo se llama la ciudad donde naciste? ")
 
+question_two = input("¿Cómo se llama tu mascota? ")
+
+print("El nombre de tu banda es: " + question_one + " " + question_two)
 
 
 

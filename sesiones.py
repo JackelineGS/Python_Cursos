@@ -1,3 +1,6 @@
+
+########################################### DAY 1 ###############################################
+
 # Lesson: Printing 
 print('Hello Word')
 # Exercise 
@@ -62,11 +65,40 @@ print("b: " + b)
 # No puedes colocar números al inicio de la variable
 # No usar los nombres restringidos
 
-question_one = input("¿Cómo se llama la ciudad donde naciste? ")
+######################################### DAY 2 ###########################################
 
-question_two = input("¿Cómo se llama tu mascota? ")
+# Data Types 
 
-print("El nombre de tu banda es: " + question_one + " " + question_two)
+# String 
+
+"Hello"[4] #El resultado es "o"
+print("123" + "345")
+
+# Interger 
+print(123 + 345)
+# Cuando el Python queramos escribir números muy grandes en el que debemos usar comas
+# A cambio podemos usar guiones abajo 
+
+123_456_789 
+
+# Float 
+
+3.14159 
+
+#Boolean 
+True
+False 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -85,9 +85,31 @@ print(123 + 345)
 
 3.14159 
 
-#Boolean 
+# Boolean 
 True
 False 
+
+# Type Error, Type Checking and Type Conversion 
+num_char = len(input('What is your name?'))
+print('Your name has' + num_char + ' characters.')
+print(type(num_char))
+
+#Convertimos un number en caracter 
+new_num_char = str(num_char)
+
+print("Your name has " + new_num_char + " characters.") # Aquí todos los elementos tienen el mismo tipo de data 
+
+# Para saber qué tipo de datos estamos utilizando usamos la función float()
+# Para convertir una variable ya existente usamos string, int o float 
+
+a = float(123)
+print(type(a))
+
+print(70 + float("100.5"))
+print(str(70) + str(100))
+
+
+
 
 
 

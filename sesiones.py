@@ -108,6 +108,24 @@ print(type(a))
 print(70 + float("100.5"))
 print(str(70) + str(100))
 
+# Operaciones matemáticas con Python 
+# Suma 
+3 + 5
+# Resta
+7 - 4
+# Multiplicación
+3 * 2
+# División
+6 / 3
+# Exponente
+2 ** 3
+
+# El orden para ejecutar las operaciones matemáticas
+
+print(3 * 3 + 3 / 3 - 3)
+
+
+
 
 
 

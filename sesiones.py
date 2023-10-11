@@ -124,7 +124,26 @@ print(str(70) + str(100))
 
 print(3 * 3 + 3 / 3 - 3)
 
+# El redondeo
 
+# Redondeamos un número flotante
+print(round(2.66666666666666, 2)) 
+# Para obtener resultados sin decimales usamos doble / 
+print(5//2)
+# Suma continua
+score = 0
+score = score + 1
+score += 1 
+score -= 1
+print(score)
+
+# Utilizamos la f strings para que no haya conflicto cuando hay varios tiepos de variable
+score = 0
+height = 1.8 
+isWinning = True
+
+# f-String
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
 
 
 

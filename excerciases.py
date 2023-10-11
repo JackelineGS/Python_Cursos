@@ -9,7 +9,7 @@ weight = input()
 a = float(weight)
 b = float(height)
 
-bmi = a/(b*b)
+bmi = a/(b*b) # a/b**2
 bmi = int(bmi)
 print(bmi)
 

@@ -38,12 +38,13 @@ print(f"You have {live} weeks left.")
 #Write your code below this line 👇
 
 print("Welcome the tip calculator.")
-qt = input("Whath was the total bill?  $")
-percent = input("What percentage tip would like to give?" + " 10, 12, or 15? ")
-people = input("How many people to split the bill? ")
+qt = float(input("Whath was the total bill?  $"))
+percent = int(input("What percentage tip would like to give?" + " 10, 12, or 15? "))
+people = int(input("How many people to split the bill? "))
 
-result = float((int(qt) * (1 + int(percent) / 100)) / int(people))
-new_result = round(result, 2)
+result = (qt * (1 + percent / 100)) / people
+# new_result = round(result, 2)
+new_result = "{:.2f}".format(result)
 print(f"Each person should pay: ${new_result}")
 
 
